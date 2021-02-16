@@ -1,0 +1,25 @@
+.intro_card {
+    margin: 5vh 0;
+    display: flex;
+}
+
+.intro_pic {
+    height: 20vh;
+}
+
+.intro_desc {
+    margin-left: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro_name {
+    font-size: 30px; 
+    font-weight: bold
+}
+
+.intro_title {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-style: italic;
+}
