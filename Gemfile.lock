@@ -43,9 +43,6 @@ GEM
       sassc (> 2.0.1, < 3.0)
     jekyll-seo-tag (2.7.1)
       jekyll (>= 3.8, < 5.0)
-    jekyll-theme-hacker (0.1.2)
-      jekyll (> 3.5, < 5.0)
-      jekyll-seo-tag (~> 2.0)
     jekyll-theme-primer (0.5.4)
       jekyll (> 3.5, < 5.0)
       jekyll-github-metadata (~> 2.9)
@@ -95,7 +92,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.2.0)
   jekyll-feed (~> 0.12)
-  jekyll-theme-hacker
   jekyll-theme-primer
   minima (~> 2.5)
   tzinfo (~> 1.2)
