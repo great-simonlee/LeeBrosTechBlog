@@ -23,7 +23,7 @@ email: great.simonlee@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   LeeBros' Tech Blog is personal blog to archive things that have been
   accomplished or interesting stories that everyone who visit this website
-  likes. Please shoot an email me regarding any topics :D
+  likes. Please shoot me an email regarding any topics :D
 baseurl: "/LeeBrosTechBlog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: great-simonlee
