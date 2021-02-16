@@ -1,8 +1,7 @@
-- name: "Simon"
-  occupation: "Bros Lee"
+- name: "Simon Seunghoon Lee"
+  occupation: "Entry Front-end Developer"
+  introduction: "Hello World!!"
 
-- name: "Daniel"
-  occupation: "Developer"
-
-- name: "Mike"
-  occupation: "Lecturer"
+- name: "Daniel Jihoon Lee"
+  occupation: "Jr. Front-end Developer"
+  introduction: "Hello World!!"
