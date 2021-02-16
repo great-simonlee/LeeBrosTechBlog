@@ -1,0 +1,62 @@
+{% for post in site.pages %}
+<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %} {{ site.data.people }}
+<br />
+{% for person in site.data.people %} {{ person.name }}, {{ person.occupation }}
+<br />
+{% endfor %}
+<br />
+
+{% for file in site.static_files %}
+<br />
+<img src="{{ file.path }}" alt="{ file.name }" />
+{% endfor %}
+
+
+---
+layout: "wrapper"
+---
+
+<h1>This is a page</h1>
+<hr />
+
+{{ content }}
+
+
+---
+layout: "wrapper"
+author: "Simon Lee"
+---
+
+{% if page.title == "New Title" and %}
+    This is the post 
+{% elsif page.title == "This is the new title" %}
+    This is the second post
+{% else %}
+    This is another post
+{% endif %}
+
+<h1>{{ page.title }}</h1>
+<h3>{{ layout.author }}</h3>
+<h3>{{ page.author }}</h3>
+<hr />
+
+{{ content }}
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ site.title }}</title>
+  </head>
+  <body>
+    {% include header.html color="blue" %} <br />
+    Wrapper <br />
+    {{ content }}
+    <br />
+    Wrapper
+  </body>
+</html>
