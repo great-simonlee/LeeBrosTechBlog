@@ -8,13 +8,16 @@ permalink: /:categories/:title
 
 ## 7. Layouts
 
-Layouts is the template for making the posts and pages on the website. It includes only HTML files that 
+Layouts is the template for making the posts and pages on the website. It includes only HTML files consisting of the base pages of the website. Markdown files are recognized based on the different forms from the layouts.  
+Examples: `default`, `home`, `page`, `post`
 <br>
 <br>
 <br>
 
 ## 8. Includes
 
+Includes contains the code blocks that consist of the layouts. These blocks can be dependent on one another.  
+Examples: `head`, `header`, `footer`
 <br>
 <br>
 <br>
