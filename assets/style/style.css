@@ -1,25 +1,57 @@
 .intro_card {
-    margin: 5vh 0;
-    display: flex;
+  margin: 5vh 0;
+  display: flex;
 }
 
 .intro_pic {
-    height: 20vh;
+  height: 20vh;
 }
 
 .intro_desc {
-    margin-left: 2vh;
-    display: flex;
-    flex-direction: column;
+  margin-left: 2vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .intro_name {
-    font-size: 30px; 
-    font-weight: bold
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .intro_title {
-    font-size: 22px;
-    font-family: sans-serif;
-    font-style: italic;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.project-card {
+  cursor: default;
+  display: flex;
+  background-color: palevioletred;
+  margin: 2em;
+  padding: 1em;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: 55%;
+}
+
+.project-image {
+  width: 250px;
+  height: 200px;
+}
+
+.project-language {
+  display: flex;
+}
+
+.project-tech {
+  padding: 5px;
+}
+
+.project-tech:hover {
+  box-shadow: 0px 0px 10px red;
 }
