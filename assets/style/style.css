@@ -6,6 +6,10 @@ h2 {
   font-weight: bolder;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .intro_card {
   margin: 5vh 0;
   display: flex;
@@ -79,10 +83,15 @@ h2 {
   font-size: 17px;
   border: none;
   cursor: pointer;
+  transition: color 0.2s;
 }
 
 .project-button:focus {
   outline: none;
+}
+
+.project-button:hover {
+  color: orange;
 }
 
 /* .project-tech:hover {
