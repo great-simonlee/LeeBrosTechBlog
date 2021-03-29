@@ -6,6 +6,8 @@ author: Simon Lee
 permalink: /:categories/:title
 ---
 
+[freeCodeCamp YouTube][youtube]
+
 ## 1. Web Scraping
 
 ### What is Web Scraping
@@ -77,3 +79,4 @@ The final part is where you download and save the data in a CSV, JSON or in a da
 [webscraper]: https://webscraper.io/
 [scrapy]: https://scrapy.org/
 [apache]: https://nutch.apache.org/
+[youtube]: https://www.youtube.com/watch?v=XVv6mJpFOb0
