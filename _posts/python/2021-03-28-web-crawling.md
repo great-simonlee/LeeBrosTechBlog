@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Web Crawling / Web Scraping
+title: Python - Web Crawling / Web Scraping
 categories: python
 author: Simon Lee
 permalink: /:categories/:title
