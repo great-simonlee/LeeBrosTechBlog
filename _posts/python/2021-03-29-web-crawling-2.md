@@ -1,17 +1,39 @@
 ---
 layout: post
-title: SQL - Cheat sheet
+title: Python - Web Crawling / Web Scraping (2)
 categories: sql cheatsheet
 author: Simon Lee
 permalink: /:categories/:title
 ---
 
-[SQL Cheatsheet][cheatsheet]
+[freeCodeCamp YouTube][youtube]
 
-## 1. SQL Cheatsheet
+## 3. Packages
+
+`pip install bs4`  
+`pip install requests`  
+`pip install requests`  
+`pip install selenium`  
+`pip install webdriver-manager`
+
+{% highlight python %}
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+
+driver = webdriver.Chrome(ChromeDriverManager().install())
+{% endhighlight %}
 
 <br>
 <br>
 <br>
 
-[cheatsheet]: https://websitesetup.org/sql-cheat-sheet/
+## 4. Selenium Selectors / Commands
+
+[SELENIUM COMMANDS][selenium_command]
+
+<br>
+<br>
+<br>
+
+[youtube]: https://www.youtube.com/watch?v=XVv6mJpFOb0
+[selenium_command]: https://blog.naver.com/deepplin/221512366470

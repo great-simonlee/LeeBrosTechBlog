@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Python - SQL Server Connection
-categories: python sql
+title: Python - Return JSON
+categories: python json
 author: Simon Lee
 permalink: /:categories/:title
 ---
 
-<strong>[Python SQL Server Connection][python-sql]</strong>
+<strong>[Python JSON output][python-json]</strong>
 
 ## 1. What you need
 
@@ -109,4 +109,4 @@ print(geeks())
 
 Expectec Output: `{“firstName”: “Pawan”, “lastName”: “Gupta”, “hobbies”: [“playing”, “problem solving”, “coding”], “age”: 20, “children”: [{“firstName”: “mohan”, “lastName”: “bansal”, “age”: 15}, {“firstName”: “prerna”, “lastName”: “Doe”, “age”: 18}]}`
 
-[python-sql]: https://www.freecodecamp.org/news/connect-python-with-sql/
+[python-json]: https://www.geeksforgeeks.org/how-to-return-a-json-object-from-a-python-function/
