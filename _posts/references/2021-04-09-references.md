@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Useful Websites
+title: Resources - Design References
 categories: useful websites references
 author: Simon Lee
 permalink: /:categories/:title

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Firebase - Email Verification
+title: Resources - Firebase Email Verification
 categories: firebase verification
 author: Simon Lee
 permalink: /:categories/:title

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Copyright-free Videos
+title: Resources - CopyrightFree Videos
 categories: nocopyright vidoes
 author: Simon Lee
 permalink: /:categories/:title

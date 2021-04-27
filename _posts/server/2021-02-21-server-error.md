@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Error - 404, 500, Mixed Contents (1)
+title: Server - Error 404, 500, Mixed Contents (1)
 categories: server error
 author: Simon Lee
 permalink: /:categories/:title

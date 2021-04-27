@@ -1,0 +1,93 @@
+<!-- {% for post in site.posts %} {% assign cat = post.categories %} {% if cat == '
+typescript' %} {{cat}} {% endif %} {% endfor %} -->
+
+<article><strong>Dictionary</strong></article>
+<ul>
+  {%- for post in site.posts -%} {% if post.title contains 'Dictionary' %}
+  <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
+  {% endif %} {%- endfor -%}
+</ul>
+
+<article><strong>Javascript</strong></article>
+<ul>
+  {%- for post in site.posts -%} {% if post.title contains 'Javascript' %}
+  <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
+  {% endif %} {%- endfor -%}
+</ul>
+
+<article><strong>Typescript</strong></article>
+<ul>
+  {%- for post in site.posts -%} {% if post.title contains 'Types' %}
+  <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
+  {% endif %} {%- endfor -%}
+</ul>
+
+<article><strong>Object Oriented Programming</strong></article>
+<ul>
+  {%- for post in site.posts -%} {% if post.title contains 'OOP' %}
+  <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
+  {% endif %} {%- endfor -%}
+</ul>
+
+<article><strong>React JS</strong></article>
+<ul>
+  {%- for post in site.posts -%} {% if post.title contains 'ReactJS' %}
+  <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
+  {% endif %} {%- endfor -%}
+</ul>
+
+<article><strong>CryptoCurrency</strong></article>
+<ul>
+  {%- for post in site.posts -%} {% if post.title contains 'Crypto' %}
+  <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
+  {% endif %} {%- endfor -%}
+</ul>
+
+<article><strong>SQL</strong></article>
+<ul>
+  {%- for post in site.posts -%} {% if post.title contains 'SQL' %}
+  <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
+  {% endif %} {%- endfor -%}
+</ul>
+
+<article><strong>Python</strong></article>
+<ul>
+  {%- for post in site.posts -%} {% if post.title contains 'Python' %}
+  <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
+  {% endif %} {%- endfor -%}
+</ul>
+
+<article><strong>Server</strong></article>
+<ul>
+  {%- for post in site.posts -%} {% if post.title contains 'Server' %}
+  <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
+  {% endif %} {%- endfor -%}
+</ul>
+
+<article><strong>Wordpress</strong></article>
+<ul>
+  {%- for post in site.posts -%} {% if post.title contains 'Wordpress' %}
+  <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
+  {% endif %} {%- endfor -%}
+</ul>
+
+<article><strong>CSS</strong></article>
+<ul>
+  {%- for post in site.posts -%} {% if post.title contains 'CSS' %}
+  <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
+  {% endif %} {%- endfor -%}
+</ul>
+
+<article><strong>Jekyll</strong></article>
+<ul>
+  {%- for post in site.posts -%} {% if post.title contains 'Jekyll' %}
+  <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
+  {% endif %} {%- endfor -%}
+</ul>
+
+<article><strong>Useful Links</strong></article>
+<ul>
+  {%- for post in site.posts -%} {% if post.title contains 'Resources' %}
+  <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
+  {% endif %} {%- endfor -%}
+</ul>

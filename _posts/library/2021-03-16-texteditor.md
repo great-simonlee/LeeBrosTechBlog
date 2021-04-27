@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Library - Text Editor
+title: Resources - Text Editor Library
 categories: library texteditor
 author: Simon Lee
 permalink: /:categories/:title
@@ -9,7 +9,6 @@ permalink: /:categories/:title
 ## 1. ckeditor
 
 ## 2. summernote
-
 
 <br>
 <br>

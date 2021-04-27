@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Firebase
+title: Resources - Firebase
 categories: firebase lecture
 author: Simon Lee
 permalink: /:categories/:title
