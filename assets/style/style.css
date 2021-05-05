@@ -50,7 +50,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   padding: 1em;
-  width: 55%;
+  width: 60%;
 }
 
 .project-head {
@@ -63,7 +63,7 @@ a:hover {
 }
 
 .project-image {
-  padding: 20px 0 20px 30px;
+  padding: 20px 0 20px 0px;
   width: 200px;
   height: 160px;
 }
