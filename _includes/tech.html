@@ -8,14 +8,14 @@ typescript' %} {{cat}} {% endif %} {% endfor %} -->
   {% endif %} {%- endfor -%}
 </ul>
 
-<article><strong>Javascript</strong></article>
+<article><strong>JavaScript</strong></article>
 <ul>
   {%- for post in site.posts -%} {% if post.title contains 'Javascript' %}
   <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
   {% endif %} {%- endfor -%}
 </ul>
 
-<article><strong>Typescript</strong></article>
+<article><strong>TypeScript</strong></article>
 <ul>
   {%- for post in site.posts -%} {% if post.title contains 'Types' %}
   <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
@@ -64,9 +64,9 @@ typescript' %} {{cat}} {% endif %} {% endfor %} -->
   {% endif %} {%- endfor -%}
 </ul>
 
-<article><strong>Wordpress</strong></article>
+<article><strong>WordPress</strong></article>
 <ul>
-  {%- for post in site.posts -%} {% if post.title contains 'Wordpress' %}
+  {%- for post in site.posts -%} {% if post.title contains 'WordPress' %}
   <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
   {% endif %} {%- endfor -%}
 </ul>
