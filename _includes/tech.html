@@ -36,6 +36,13 @@ typescript' %} {{cat}} {% endif %} {% endfor %} -->
   {% endif %} {%- endfor -%}
 </ul>
 
+<article><strong>Microsoft Azure</strong></article>
+<ul>
+  {%- for post in site.posts -%} {% if post.title contains 'Azure' %}
+  <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
+  {% endif %} {%- endfor -%}
+</ul>
+
 <article><strong>CryptoCurrency</strong></article>
 <ul>
   {%- for post in site.posts -%} {% if post.title contains 'Crypto' %}
