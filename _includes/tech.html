@@ -17,7 +17,7 @@ typescript' %} {{cat}} {% endif %} {% endfor %} -->
 
 <article><strong>TypeScript</strong></article>
 <ul>
-  {%- for post in site.posts -%} {% if post.title contains 'Types' %}
+  {%- for post in site.posts -%} {% if post.title contains 'Typescript' %}
   <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
   {% endif %} {%- endfor -%}
 </ul>
