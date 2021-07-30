@@ -15,6 +15,13 @@ typescript' %} {{cat}} {% endif %} {% endfor %} -->
   {% endif %} {%- endfor -%}
 </ul>
 
+<article><strong>Git</strong></article>
+<ul>
+  {%- for post in site.posts -%} {% if post.title contains 'Git' %}
+  <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
+  {% endif %} {%- endfor -%}
+</ul>
+
 <article><strong>JavaScript</strong></article>
 <ul>
   {%- for post in site.posts -%} {% if post.title contains 'Javascript' %}
@@ -24,7 +31,7 @@ typescript' %} {{cat}} {% endif %} {% endfor %} -->
 
 <article><strong>TypeScript</strong></article>
 <ul>
-  {%- for post in site.posts -%} {% if post.title contains 'Types' %}
+  {%- for post in site.posts -%} {% if post.title contains 'Typescript' %}
   <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
   {% endif %} {%- endfor -%}
 </ul>
