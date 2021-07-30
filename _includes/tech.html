@@ -1,6 +1,13 @@
 <!-- {% for post in site.posts %} {% assign cat = post.categories %} {% if cat == '
 typescript' %} {{cat}} {% endif %} {% endfor %} -->
 
+<article><strong>Project</strong></article>
+<ul>
+  {%- for post in site.posts -%} {% if post.title contains 'Project' %}
+  <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
+  {% endif %} {%- endfor -%}
+</ul>
+
 <article><strong>Dictionary</strong></article>
 <ul>
   {%- for post in site.posts -%} {% if post.title contains 'Dictionary' %}
