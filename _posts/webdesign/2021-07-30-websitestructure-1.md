@@ -18,7 +18,15 @@ permalink: /:categories/:title
 <br>
 <br>
 
-## 2. Color System
+## 2. Responsive Layout
+
+<strong>---> [Material Responsive Layout][material-responsive] <---</strong>
+
+<br>
+<br>
+<br>
+
+## 3. Color System
 
 <strong>---> [Material Color System][material-color-system] <---</strong>
 
@@ -26,7 +34,7 @@ permalink: /:categories/:title
 <br>
 <br>
 
-## 3. Type System
+## 4. Type System
 
 <strong>---> [Material Type System][material-type-system] <---</strong>
 
@@ -34,7 +42,7 @@ permalink: /:categories/:title
 <br>
 <br>
 
-## 4. Elevation
+## 5. Elevation
 
 <strong>---> [Material Elevation][material-elevation] <---</strong>
 
@@ -42,7 +50,7 @@ permalink: /:categories/:title
 <br>
 <br>
 
-## 5. Text Legibility
+## 6. Text Legibility
 
 <strong>---> [Material Text Legibility][material-legibility] <---</strong>
 
@@ -50,7 +58,7 @@ permalink: /:categories/:title
 <br>
 <br>
 
-## 6. States
+## 7. States
 
 <strong>---> [Material States][material-states] <---</strong>
 
@@ -66,3 +74,4 @@ permalink: /:categories/:title
 [material-elevation]: https://material.io/design/environment/elevation.html
 [material-type-system]: https://material.io/design/typography/the-type-system.html#type-scale
 [material-color-system]: https://material.io/design/color/the-color-system.html#color-usage-and-palettes
+[material-responsive]: https://material.io/design/layout/responsive-layout-grid.html#columns-gutters-and-margins
