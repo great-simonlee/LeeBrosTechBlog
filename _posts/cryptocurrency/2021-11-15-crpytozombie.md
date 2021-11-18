@@ -81,12 +81,24 @@ function _generateRandomDna(string memory _str) private view returns (uint) {
 
 <p style="font-family: 'Times New Roman', serif; font-size: 16px"><strong>Events:&nbsp;</strong>are a way for your contract to communicate that something happened on the blockchain to your app front-end, which can be 'listening' for certain events and take action when they happen.</p>
 {% highlight solidity %}
-""" The first line of code should take the keccak256 hash of abi.encodePacked(_str) to generate a pseudo-random hexadecimal, typecast it as a uint, and finally store the result in a uint called rand. """
-""" We want our DNA to only be 16 digits long (remember our dnaModulus?). So the second line of code should return the above value modulus (%) dnaModulus. """
-function _generateRandomDna(string memory _str) private view returns (uint) {
-    uint rand = uint(keccak256(abi.encodePacked(_str)));
-    return rand % dnaModulus;
-}
+""" Declare an event called NewZombie. It should pass zombieId (a uint), name (a string), and dna (a uint). """
+event NewZombie(uint zombieId, string name, uint dna);
+""" You're going to need the zombie's id. array.push() returns a uint of the new length of the array - and since the first item in an array has index 0, array.push() - 1 will be the index of the zombie we just added. Store the result of zombies.push() - 1 in a uint called id, so you can use this in the NewZombie event in the next line. """
+    function _createZombie(string memory _name, uint _dna) private {
+        uint id = zombies.push(Zombie(_name, _dna)) - 1;
+        emit NewZombie(id, _name, _dna);
+    }
+{% endhighlight %}
+
+<p style="font-family: 'Times New Roman', serif; font-size: 16px"><strong>Web3.js:&nbsp;</strong>is a Javascript library lives in Ethereum.</p>
+{% highlight solidity %}
+""" Declare an event called NewZombie. It should pass zombieId (a uint), name (a string), and dna (a uint). """
+event NewZombie(uint zombieId, string name, uint dna);
+""" You're going to need the zombie's id. array.push() returns a uint of the new length of the array - and since the first item in an array has index 0, array.push() - 1 will be the index of the zombie we just added. Store the result of zombies.push() - 1 in a uint called id, so you can use this in the NewZombie event in the next line. """
+    function _createZombie(string memory _name, uint _dna) private {
+        uint id = zombies.push(Zombie(_name, _dna)) - 1;
+        emit NewZombie(id, _name, _dna);
+    }
 {% endhighlight %}
 
 <p style="font-family: 'Times New Roman', serif; font-size: 20px; margin-left: 35px;"></p>
